@@ -6,7 +6,7 @@ import Achive from "../pages/Achive.jsx";
 
 const Router =() => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/">
             <Routes>
                 <Route exact path="/" element ={<Home/>}/>
                 <Route path="/detail" element ={<Detail/>}/>

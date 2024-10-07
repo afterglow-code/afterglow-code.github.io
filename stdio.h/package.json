@@ -1,6 +1,7 @@
 {
   "name": "stdio.h",
   "version": "0.1.0",
+  "homepage": "https://afterglow-code.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
