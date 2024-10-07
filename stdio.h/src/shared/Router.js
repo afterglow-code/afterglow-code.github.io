@@ -6,7 +6,7 @@ import Achive from "../pages/Achive.jsx";
 
 const Router =() => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="afterglow-code.github.io">
             <Routes>
                 <Route exact path="/" element ={<Home/>}/>
                 <Route path="/detail" element ={<Detail/>}/>
