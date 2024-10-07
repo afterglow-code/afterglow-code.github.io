@@ -20,156 +20,6 @@
     변수 저장은
     $main : #ff;
 */
-/* Navbar scss start */
-.logo{
-    color : black;
-    height: 22px;
-    position: relative;
-    width: 63px;
-}
-
-.Nav-wrapper {
-    align-items: center;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    display: flex;
-    height: 72px;
-    justify-content: space-between;
-    padding: 0px 64px;
-    position: relative;
-}
-
-.content {
-    align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 24px;
-    position: relative;
-}
-
-.nav-wrapper .logo {
-    height: 22px;
-    position: relative;
-    width: 63px;
-}
-  
-.text-wrapper {
-    align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 32px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.Nav-Dropdown{
-    height: 24px;
-    width: 24px;
-    position: relative;
-}
-
-.Dropdown-wrapper{
-    align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 4px;
-    justify-content: center;
-    position: relative;
-    
-}
-.Click-area{
-    align-items: center;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 4px;
-    position: relative;
-    cursor: pointer;
-}
-
-.Actions{
-    width: 99px;
-    height: 40px;
-    align-items: center;
-    display: inline-flex;
-    gap: 16px;
-    justify-content: center;
-    position: relative;
-    background-color: black;
-    color: white;
-}
-
-.rocket{
-    height: 24px;
-    width: 24px;
-}
-
-.Menu-List{
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 16px;
-    position: relative;
-}
-
-.List{
-    align-items: flex-start;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 16px;
-    position: relative;
-}
-
-.List-item{
-    align-items: flex-start;
-    display: flex;
-    gap: 12px;
-    height: 61px;
-    padding:8px 0px;
-    position: relative;
-    width: 312px;
-}
-
-.List-title{
-    font-weight: 600;
-    font-size: small;
-}
-
-.content-text-title{
-    font-weight: 600;
-    font-size: medium;
-}
-
-.content-text-sub{
-    font-weight: 400;
-    font-size: small;
-}
-/* Navbar scss animate and overlay */
-.Nav-bar{
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-}
-.Dropdown {
-    align-items: flex-start;
-    display: flex;
-    gap: 32px;
-    padding: 32px 32px 32px 64px;
-    position: absolute; 
-    width: calc(100% - 96px);
-    background-color: white;
-    z-index: 1;
-    top: 73px;
-}
-
-
-
-/* Navbar scss complete */
 
 /* Home scss start */
 .Home{
@@ -208,6 +58,22 @@
     display: inline-flex;
     gap: 16px;
     position: relative;
+}
+
+.Home-admission{
+    background-color: white;
+    border-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 12px 24px;
+}
+
+.Home-detail-link{
+    border-color: white;
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 12px 24px;
 }
 
 /* Home scss complete */
@@ -256,5 +122,195 @@
 
 /* Home-2 scss start */
 
+.Home-2-wrapper-align{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 112px 0px;
+    position: relative;
+    height: auto;
+}
 
+.Home-2{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 112px 64px;
+    position: relative;
+    height: auto;
+}
+
+.Home-2-title-wrapper{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 768px;
+    /* width 주의 확인바람 */
+}
+
+.Home-2-title{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+.text{
+    font-weight: 500;
+}
+.Home-2-content{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+}
+
+.Home-2-Row{
+    align-items: flex-start;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    position: relative;
+}
+
+.Home-2-colimn{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.book{
+    height: 48px;
+    width: 48px;
+}
+
+.Home-2-action{
+    align-items: center;
+    display: inline-flex;
+    gap: 24px;
+    position: relative;
+}
+.Home-2-detail-link{
+    border: 1.5px solid;
+    border-color: black;
+    color: black;
+    padding: 12px 24px;
+    position: relative;
+    text-decoration: none;
+}
+.Home-2-admission-wrapper{
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    position: relative;
+}
+
+.right{
+    height: 24px;
+    width: 24px;
+}
 /* Home-2 scss complete */
+
+
+/* Home-3 scss start */
+.up-icon{
+    height: 32px;
+    width: 32px;
+}
+
+.FAQ-title-header{
+    font-weight: bold;
+    
+}
+
+.FAQ-title-text{
+    font-weight: 500;
+}
+
+.Home-FAQ{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 112px 64px;
+    position: relative;
+
+}
+
+.FAQ-container{
+    align-items: flex-start;
+    display: flex;
+    gap: 80px;
+    position: relative;
+}
+
+.FAQ-title-wrapper{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    width: 500px;
+    /* width 주의 확인바람 */
+}
+
+.FAQ-title-list{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.Accordion-List{
+    align-items: flex-start;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 710px;
+}
+
+.Accordion-item{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.Q{
+    align-items: center;
+    border-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    gap: 24px;
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;
+}
+
+.Q-text{
+    width: 100%;
+    font-weight: bolder;
+    font-size: large;
+}
+.A{
+    align-items: flex-start;
+    display: flex;
+    display: 16px;
+    padding: 0px 0px 24px;
+    position: relative;
+}
+/* Home-3 scss complete */

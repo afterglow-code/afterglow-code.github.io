@@ -1,0 +1,23 @@
+.Achive-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 120px 0px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.Achive-list{
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 120px;
+    position: relative;
+}
+
+.Achive-text{
+    font-weight: 700;
+}
