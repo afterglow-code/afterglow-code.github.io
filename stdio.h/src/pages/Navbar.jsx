@@ -16,7 +16,7 @@ function Navbar(){
                 <div className="Content">
                     <div className="text-wrapper">
                         <Link to = "/"><img src="./logo.png" className="logo"></img></Link> 
-                        <div className="Aboutus">About Us</div>
+                        <Link to="/detail" className="Aboutus">About Us</Link>
                         <Link to="/achive" className="Link">Achive</Link>
                         <div className="Community">Community</div>
                         <div className="Dropdown-wrapper">
