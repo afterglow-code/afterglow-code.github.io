@@ -22,6 +22,7 @@
 */
 
 /* Home scss start */
+
 .Home{
     align-items: center;
     background-color: #00000080;
@@ -30,6 +31,11 @@
     padding: 0px 120px;
     position: relative;
     color: white;
+}
+@media(max-width: 800px){
+    .Home{
+        padding: 0px 20px;
+    }
 }
 .Home-container{
     align-items: flex-start;
@@ -90,6 +96,13 @@
     height: auto;
 
 }
+@media(max-width: 800px){
+    .Home-1{
+        gap: 48px;
+        padding: 64px 20px;
+        position: relative;
+    }
+}
 
 .Home-1-container{
     align-items: center;
@@ -97,7 +110,13 @@
     gap: 120px;
     position: relative;
 }
-
+@media(max-width: 800px){
+    .Home-1-container{
+        flex-direction: column;
+        gap: 48px;
+        position: relative;
+    }
+}
 .Home-1-content{
     align-items: flex-start;
     display: flex;
@@ -118,18 +137,15 @@
     height: 640px;
     width: 616px;
 }
+@media(max-width: 800px){
+    .Home-1-pic{
+        height: 100%; 
+        width: 100%;   
+    }
+}
 /* Home-1 scss complete */
 
 /* Home-2 scss start */
-
-.Home-2-wrapper-align{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 112px 0px;
-    position: relative;
-    height: auto;
-}
 
 .Home-2{
     align-items: center;
@@ -141,7 +157,25 @@
     position: relative;
     height: auto;
 }
-
+@media(max-width: 800px){
+    .Home-2{
+        gap: 48px;
+        padding: 64px 20px;
+    }
+}
+.Home-2-wrapper-align{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 112px 0px;
+    position: relative;
+    height: auto;
+}
+@media(max-width: 800px){
+    .Home-2-wrapper-align{
+        align-items: center;
+    }
+}
 .Home-2-title-wrapper{
     align-items: flex-start;
     display: flex;
@@ -151,7 +185,11 @@
     width: 768px;
     /* width 주의 확인바람 */
 }
-
+@media(max-width: 800px){
+    .Home-2-title-wrapper{
+        width: 100%;
+    }
+}
 .Home-2-title{
     align-items: flex-start;
     display: flex;
@@ -177,7 +215,12 @@
     justify-content: center;
     position: relative;
 }
-
+@media(max-width: 800px){
+    .Home-2-Row{
+        flex-direction: column;   
+        gap: 48px;
+    }
+}
 .Home-2-colimn{
     align-items: flex-start;
     display: flex;
@@ -196,6 +239,11 @@
     display: inline-flex;
     gap: 24px;
     position: relative;
+}
+@media(max-width: 800px){
+    .Home-2-action{
+        width: 100%;
+    }
 }
 .Home-2-detail-link{
     border: 1.5px solid;
@@ -245,14 +293,24 @@
     position: relative;
 
 }
-
+@media(max-width: 800px){
+    .Home-FAQ{
+        gap: 48px;
+        padding: 64px 20px;
+    }
+}
 .FAQ-container{
     align-items: flex-start;
     display: flex;
     gap: 80px;
     position: relative;
 }
-
+@media(max-width: 800px){
+    .FAQ-container{
+        gap: 48px;
+        flex-direction: column;
+    }
+}
 .FAQ-title-wrapper{
     align-items: flex-start;
     display: flex;
@@ -262,7 +320,11 @@
     width: 500px;
     /* width 주의 확인바람 */
 }
-
+@media(max-width: 800px){
+    .FAQ-title-wrapper{
+        width: 100%;
+    }
+}
 .FAQ-title-list{
     align-items: flex-start;
     display: flex;
@@ -281,7 +343,11 @@
     position: relative;
     width: 710px;
 }
-
+@media(max-width: 800px){
+    .Accordion-List{
+        width: 100%;
+    }
+}
 .Accordion-item{
     align-items: flex-start;
     display: flex;
@@ -309,7 +375,6 @@
 .A{
     align-items: flex-start;
     display: flex;
-    display: 16px;
     padding: 0px 0px 24px;
     position: relative;
 }

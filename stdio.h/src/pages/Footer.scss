@@ -9,7 +9,12 @@
     padding: 64px 64px;
     position: relative;
 }
-
+@media(max-width: 800px){
+    .Footer{
+        gap: 24px;
+        padding: 20px 20px;
+    }
+}
 .end{
     align-items: flex-start;
     display: flex;
@@ -34,4 +39,11 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
+}
+@media(max-width: 800px){
+    .Footer-row{
+        flex-direction: column-reverse;
+        gap: 24px;
+        padding-bottom: 20px;
+    }
 }

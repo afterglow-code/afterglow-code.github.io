@@ -1,4 +1,6 @@
-/* Navbar scss start */
+/*All  Navbar scss start */
+
+/*Navbar-Desktop scss start */
 .logo{
     color : black;
     height: 22px;
@@ -6,7 +8,7 @@
     width: 63px;
 }
 
-.Nav-wrapper {
+.Nav-wrapper-Desktop {
     align-items: center;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -25,7 +27,7 @@
     position: relative;
 }
 
-.nav-wrapper .logo {
+.nav-wrapper-Desktop .logo {
     height: 22px;
     position: relative;
     width: 63px;
@@ -89,7 +91,7 @@
     background-color: black;
     color: white;
 }
-
+/* Navbar-Desktop scss end */
 
 /* Navbar scss animate and overlay */
 .Nav-bar{
@@ -99,4 +101,21 @@
     z-index: 1;
 }
 
-/* Navbar scss complete */
+/* Navbar-Mobile scss start */
+.Nav-wrapper-Mobile
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    height: 64px;
+    align-items: center;
+}
+
+.down{
+    height: 24px;
+    width: 24px;
+}
+
+/* Navbar-Mobile scss end */
+
+/*All Navbar scss complete */

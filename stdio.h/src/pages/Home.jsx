@@ -1,7 +1,6 @@
 import React from "react";
-import { useState } from "react";
 import {Link} from 'react-router-dom';
-
+import MediaQuery, {useMediaQuery} from 'react-responsive'
 import './Home.scss';
 
 import Navbar from "./Navbar";
@@ -125,7 +124,7 @@ function Home(){
 
                         <div className="Accordion-item">
                             <div className="Q">
-                                <div className="Q-text">경험이 없어도 프로젝트(대회)참여가 가능한가요?</div>
+                                <div className="Q-text">경험이 없어도 프로젝트<br/>(대회)참여가 가능한가요?</div>
                                 <img className="up-icon" src="./angle-up.svg"></img> 
                             </div>
                             <div className="A">

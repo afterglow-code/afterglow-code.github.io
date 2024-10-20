@@ -4,7 +4,7 @@ import './Footer.scss';
 
 function Footer(){
     return(
-        <div className="Footer">
+        <footer className="Footer">
             <div className="end">
                 <div className="divider"></div>
                 <div className="Footer-row">
@@ -12,7 +12,7 @@ function Footer(){
                     <img src="./logo.png" className="logo"></img>
                 </div>
             </div>
-        </div>
+        </footer>
 
     )
 }
