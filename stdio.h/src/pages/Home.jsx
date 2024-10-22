@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import MediaQuery, {useMediaQuery} from 'react-responsive'
 import './Home.scss';
 
 import Navbar from "./Navbar";

@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import './Detail.scss';
 
 import Navbar from "./Navbar.jsx";

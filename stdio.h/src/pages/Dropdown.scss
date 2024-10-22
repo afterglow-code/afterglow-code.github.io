@@ -88,6 +88,7 @@
     padding: 12px 0px;
     position: relative;
     text-decoration: none;
+    color: black;
 }
 
 .ProgramInfo-wrapper{
@@ -112,6 +113,8 @@
     position: relative;
     gap: 24px;
     padding: 16px 0px;
+    overflow: scroll;
+    height: 270px;
 }
 
 .M-menu-list{

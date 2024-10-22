@@ -9,12 +9,23 @@ $white : #ffff;
     padding: 112px 64px;
     position: relative;
 }
-
+@media(max-width: 800px){
+    .Detail-0{
+        gap: 48px;
+        padding: 70px 20px 64px 20px;
+    }
+}
 .Detail-0-container{
     align-items: center;
     display: flex;
     gap: 80px;
     position: relative;
+}
+@media(max-width: 800px){
+    .Detail-0-container{
+        gap: 48px;
+        flex-direction: column;
+    }
 }
 
 .Detail-0-content{
@@ -37,7 +48,11 @@ $white : #ffff;
 .Detail-0-robot{
     height: 640px;
 }
-
+@media(max-width: 800px){
+    .Detail-0-robot{
+        height: 348px;
+    }
+}
 /* Detail-1 start */
 
 .Detail-1-wrapper{
@@ -56,7 +71,13 @@ $white : #ffff;
     grid-template-rows: 1fr 1fr;
 
 }
-
+@media(max-width: 800px){
+    .Detail-1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 0.5fr 0.5fr;
+        padding: 15px;
+    }
+}
 .Detail-1-content{
     background-color: #f4f4f6;
     gap: 40px;
