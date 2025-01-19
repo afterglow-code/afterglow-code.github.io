@@ -20,6 +20,11 @@
     변수 저장은
     $main : #ff;
 */
+@mixin flex_default{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 /* Home scss start */
 
@@ -39,17 +44,14 @@
     }
 }
 .Home-container{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+   @include flex_default();
     gap: 32px;
     position: relative;
     width: 560px;
+    
 }
 .Home-content{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 24px;
     position: relative;
 }
@@ -119,9 +121,7 @@
     }
 }
 .Home-1-content{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 24px;
     position: relative;
 }
@@ -178,9 +178,7 @@
     }
 }
 .Home-2-title-wrapper{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 16px;
     position: relative;
     width: 768px;
@@ -192,9 +190,7 @@
     }
 }
 .Home-2-title{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 24px;
     position: relative;
 }
@@ -202,9 +198,7 @@
     font-weight: 500;
 }
 .Home-2-content{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 64px;
     position: relative;
 }
@@ -223,9 +217,7 @@
     }
 }
 .Home-2-colimn{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 24px;
     position: relative;
 }
@@ -313,9 +305,7 @@
     }
 }
 .FAQ-title-wrapper{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 32px;
     position: relative;
     width: 500px;
@@ -327,9 +317,7 @@
     }
 }
 .FAQ-title-list{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     gap: 24px;
     position: relative;
 }
@@ -350,9 +338,7 @@
     }
 }
 .Accordion-item{
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    @include flex_default();
     position: relative;
     width: 100%;
 }
